@@ -1,14 +1,14 @@
+using System;
 using UnityEngine;
 
 public class Bootstrap : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
+    [SerializeField] private InputHandler _input;
+    [SerializeField] private SliceTool _sliceTool;
 
-    void Update()
+    private void Awake()
     {
-        
+        _input.Init();
+        _sliceTool.Init(_input);
     }
 }

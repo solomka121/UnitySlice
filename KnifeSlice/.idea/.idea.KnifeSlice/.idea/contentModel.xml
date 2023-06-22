@@ -216,8 +216,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Bootstrap.cs" t="Include" />
+          <e p="InputHandler.cs" t="Include" />
           <e p="Main.asmdef" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="Sliceble.cs" t="Include" />
+          <e p="SliceTool.cs" t="Include" />
         </e>
       </e>
       <e p="KnifeSlice.sln" t="IncludeFlat" />
