@@ -7,6 +7,105 @@
       <e p="Addons.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Addons" t="Include">
+          <e p="BzKovSoft" t="Include">
+            <e p="CharacterSlicer" t="Include">
+              <e p="BzKovSoft.CharacterSlicer.asmdef" t="Include" />
+              <e p="BzSliceableCharacterBase.cs" t="Include" />
+              <e p="BzSliceSkinnedMeshAdapter.cs" t="Include" />
+              <e p="CenterOfMassColliderBasedHelper.cs" t="Include" />
+              <e p="CharacterComponentManagerFast.cs" t="Include" />
+              <e p="CharacterSlicerInitializer.cs" t="Include" />
+              <e p="Samples" t="Include">
+                <e p="BzKovSoft.CharacterSlicer.Samples.asmdef" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="CharacterSlicerSampleFast.cs" t="Include" />
+                  <e p="EnemyManager.cs" t="Include" />
+                  <e p="IDeadable.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="ObjectSlicer" t="Include">
+              <e p="BzKovSoft.ObjectSlicer.asmdef" t="Include" />
+              <e p="BzManualMeshAdapter.cs" t="Include" />
+              <e p="BzMeshData.cs" t="Include" />
+              <e p="BzMeshDataDissector.cs" t="Include" />
+              <e p="BzMeshDataEditor.cs" t="Include" />
+              <e p="BzSliceableBase.cs" t="Include" />
+              <e p="BzSliceableObjectBase.cs" t="Include" />
+              <e p="BzSliceColliderAdapter.cs" t="Include" />
+              <e p="BzSliceConfiguration.cs" t="Include" />
+              <e p="BzSliceMeshFilterAdapter.cs" t="Include" />
+              <e p="BzSlicerHelper.cs" t="Include" />
+              <e p="BzSliceTryData.cs" t="Include" />
+              <e p="BzSliceTryResult.cs" t="Include" />
+              <e p="BzTriangle.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="BzKovSoft.ObjectSlicer.Editor.asmdef" t="Include" />
+                <e p="RepeatSliceDialog.cs" t="Include" />
+              </e>
+              <e p="EventHandlers" t="Include">
+                <e p="BzDeleteSecondJoint.cs" t="Include" />
+                <e p="BzFixMass.cs" t="Include" />
+                <e p="BzFixMassSmart.cs" t="Include" />
+                <e p="BzReaplyForce.cs" t="Include" />
+                <e p="BzSmoothDepenetration.cs" t="Include" />
+                <e p="IBzObjectSlicedEvent.cs" t="Include" />
+              </e>
+              <e p="FallingObjGC.cs" t="Include" />
+              <e p="IBzSliceable.cs" t="Include" />
+              <e p="IBzSliceAdapter.cs" t="Include" />
+              <e p="IComponentManager.cs" t="Include" />
+              <e p="LazyActionRunner.cs" t="Include" />
+              <e p="LinkedLoop.cs" t="Include" />
+              <e p="MeshGenerator" t="Include">
+                <e p="Capsule.cs" t="Include" />
+                <e p="Cube.cs" t="Include" />
+                <e p="IcoSphere.cs" t="Include" />
+              </e>
+              <e p="MeshTriangleOptimizer.cs" t="Include" />
+              <e p="ObjectSlicerInitializer.cs" t="Include" />
+              <e p="Polygon" t="Include">
+                <e p="BzPoly.cs" t="Include" />
+                <e p="BzPolyLoop.cs" t="Include" />
+                <e p="LoopIndex.cs" t="Include" />
+                <e p="LoopIndexCollection.cs" t="Include" />
+                <e p="PolyMeshData.cs" t="Include" />
+              </e>
+              <e p="Samples" t="Include">
+                <e p="BzKovSoft.ObjectSlicer.Samples.asmdef" t="Include" />
+                <e p="Cartoon_Texture_Pack" t="Include">
+                  <e p="readme.txt" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="AdderSliceableAsync.cs" t="Include" />
+                  <e p="BzKnife.cs" t="Include" />
+                  <e p="IBzSliceableNoRepeat.cs" t="Include" />
+                  <e p="KnifeSliceableAsync.cs" t="Include" />
+                  <e p="MoveCamera.cs" t="Include" />
+                  <e p="ObjectSlicerSample.cs" t="Include" />
+                  <e p="SampleKnifeSlicer.cs" t="Include" />
+                  <e p="SampleManualSlicer.cs" t="Include" />
+                  <e p="SampleMouseSlicer.cs" t="Include" />
+                  <e p="SliceIdProvider.cs" t="Include" />
+                </e>
+              </e>
+              <e p="SliceConfigurationDto.cs" t="Include" />
+              <e p="SliceResult.cs" t="Include" />
+              <e p="SliceTry.cs" t="Include" />
+              <e p="SliceTryItem.cs" t="Include" />
+              <e p="StaticComponentManager.cs" t="Include" />
+              <e p="Tests" t="Include">
+                <e p="BzKovSoft.ObjectSlicer.Tests.asmdef" t="Include" />
+                <e p="BzMeshDataEditorTests.cs" t="Include" />
+                <e p="BzPolyTests.cs" t="Include" />
+                <e p="LinkedLoopTests.cs" t="Include" />
+                <e p="MeshGenerator" t="Include">
+                  <e p="CapsuleTests.cs" t="Include" />
+                </e>
+                <e p="MeshTriangleOptimizerTests.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Customizable Skybox" t="Include">
             <e p="Stylized Sky" t="Include">
               <e p="Shaders" t="Include">
@@ -223,6 +322,12 @@
           <e p="SliceTool.cs" t="Include" />
         </e>
       </e>
+      <e p="BzKovSoft.CharacterSlicer.csproj" t="IncludeRecursive" />
+      <e p="BzKovSoft.CharacterSlicer.Samples.csproj" t="IncludeRecursive" />
+      <e p="BzKovSoft.ObjectSlicer.csproj" t="IncludeRecursive" />
+      <e p="BzKovSoft.ObjectSlicer.Editor.csproj" t="IncludeRecursive" />
+      <e p="BzKovSoft.ObjectSlicer.Samples.csproj" t="IncludeRecursive" />
+      <e p="BzKovSoft.ObjectSlicer.Tests.csproj" t="IncludeRecursive" />
       <e p="KnifeSlice.sln" t="IncludeFlat" />
       <e p="Main.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
