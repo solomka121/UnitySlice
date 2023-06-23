@@ -1,3 +1,4 @@
+using BzKovSoft.ObjectSlicer;
 using UnityEngine;
 
 public class SliceTool : MonoBehaviour
@@ -48,8 +49,11 @@ public class SliceTool : MonoBehaviour
         RaycastHit hit = new RaycastHit();
         if(Physics.Raycast(_slicePoint.transform.position , _slicePoint.forward , out hit , _sliceToolLenght , _slicebleMask))
         {
-            if(hit.transform.TryGetComponent<Sliceble>(out Sliceble sliceble))
+            if(hit.transform.TryGetComponent<IBzSliceable>(out IBzSliceable sliceble))
             _isSlicing = true;
+            Debug.Log("Slice " + hit.transform.name);
+            Plane slicePlane = new Plane(transform.right , _slicePoint.position); 
+            sliceble.Slice(slicePlane , null);
         }
         else
         {

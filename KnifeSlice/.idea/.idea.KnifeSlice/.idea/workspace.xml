@@ -4,6 +4,13 @@
     <list default="true" id="bae88951-6711-409b-a92f-3367b0f0e7a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KnifeSlice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnifeSlice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KnifeSlice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnifeSlice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Cup.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Cup.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Liquid.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Liquid.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Plate.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Plate.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Sugar.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Sugar.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SliceTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SliceTool.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687443773583</updated>
-      <workItem from="1687443775038" duration="5539000" />
+      <workItem from="1687443775038" duration="8192000" />
     </task>
     <servers />
   </component>
