@@ -51,7 +51,6 @@ public class SliceTool : MonoBehaviour
         {
             if(hit.transform.TryGetComponent<IBzSliceable>(out IBzSliceable sliceble))
             _isSlicing = true;
-            Debug.Log("Slice " + hit.transform.name);
             Plane slicePlane = new Plane(transform.right , _slicePoint.position); 
             sliceble.Slice(slicePlane , null);
         }
