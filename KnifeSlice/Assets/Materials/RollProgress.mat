@@ -37,9 +37,9 @@ Material:
     - _PointX: 0
     - _PointY: 0.5
     - _Radius: 1
-    - _Tess: 5
+    - _Tess: 1
     m_Colors:
-    - _Color: {r: 0.09019608, g: 0.38823533, b: 0.49803925, a: 1}
+    - _Color: {r: 0.07164473, g: 0.48878703, b: 0.6603774, a: 1}
     - _RollDir: {r: 0, g: 0, b: -1, a: 0}
     - _UpDir: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
